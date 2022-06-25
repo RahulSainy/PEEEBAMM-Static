@@ -35,8 +35,16 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          margin-top: 3rem;
+          
 }
-
+.custom_heading-container h1 {
+font-size: 2.5rem;
+/* font-size: 72px; */
+background: -webkit-linear-gradient(#3b3a92, #7d4bd5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .custom_heading-container h2 {
   font-weight: bold;
   border-bottom: 1px solid #feb543;
@@ -330,7 +338,7 @@ a:focus {
   color: #f9fcfb;
   background-image: url(../images/service-bg.png);
   background-size: 100% 100%;
-  padding-top: 275px;
+  /* padding-top: 275px; */
   padding-bottom: 125px;
   background-repeat: no-repeat;
   margin-top: -150px;
@@ -338,6 +346,7 @@ a:focus {
 
 .service_section .custom_heading-container h2 {
   border-color: #f9fcfb;
+  color: #5240aa;
 }
 
 .service_section .service_container {
@@ -556,7 +565,7 @@ a:focus {
 
 .contact_section form .form-control {
   border: none;
-  background-color: #f2f3f4;
+  background-color: #ececec;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -608,6 +617,8 @@ a:focus {
   background-size: cover;
   padding-top: 280px;
   margin-top: -125px;
+
+  
 }
 
 .info_section {
@@ -735,3 +746,39 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+.industry-card {
+  border-radius: 0 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
+  margin: 20px 5px;
+  transition: 0.5s;
+  height: 380px;
+  padding-bottom: 20px;
+}
+.industry-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 10px;
+  height: 80px;
+  background: linear-gradient(135deg, #00baff 1%, #299fff 50%, #013dff 100%);
+  padding: 20px;
+}
+.card-font{
+margin: 1rem;
+}
+.industry_card_h4{
+  color: white;
+
+}
+.servicesImg{
+  height: 272px;}
