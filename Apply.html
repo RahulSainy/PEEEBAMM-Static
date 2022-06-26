@@ -87,27 +87,31 @@
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputName4">Name</label>
-              <input type="text" name="entry.1761444097" class="form-control" id="inputName4"/>
+              <input  required type="text" name="entry.1761444097" class="form-control" id="inputName4"/>
             </div>
             <div class="form-group col-md-6">
               <label for="inputEmail4">Email</label>
-              <input type="email" name="entry.1964334152" class="form-control" id="inputEmail4"/>
+              <input required type="email" name="entry.1964334152" class="form-control" id="inputEmail4"/>
             </div>
   
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputNumber4">Phone number</label>
-              <input type="tel" name="entry.519555113" class="form-control" id="inputNumber4"/>
+              <input required type="tel" name="entry.519555113" class="form-control" id="inputNumber4"/>
             </div>
            
             <div class="form-group col-md-6">
               <label for="inputState">Select Carrers</label>
-              <select id="inputState" name="entry.369853479" class="form-control">
+              <select required id="inputState" name="entry.369853479" class="form-control">
                 <option value="select" selected disabled></option>
-                <option>Option 1</option>
-                <option>Option 2</option>
-                <option>Option 3</option>
+                <option>UI/UX Designer</option>
+                <option>WEB Developer</option>
+                <option>BACKEND Developer</option>
+                <option>APP Developer</option>
+                <option>DIGITAL MARKETING</option>
+                <option>PROJECT MANAGER</option>
+
 
               </select>
             </div>
@@ -118,11 +122,11 @@
        
           <div class="form-group">
             <label for="inputfile">RESUME/CV</label>
-            <input type="file" name="entry.134457305" class="form-control" id="inputfile" placeholder=""/>
+            <input required type="file" name="entry.134457305" class="form-control" id="inputfile" placeholder=""/>
           </div>
           <div class="form-group">
             <label for="inputMessage">Message</label>
-            <input type="text"name="entry.1787913733"  class="form-control" id="inputMessage" placeholder="Anything You Would Like to Know"/>
+            <input  type="text"name="entry.1787913733"  class="form-control" id="inputMessage" placeholder="Anything You Would Like to Know"/>
           </div>
       </div>
   
@@ -159,11 +163,12 @@
               </a>
             </div>
             <div class="form_container mt-5">
-              <form action="">
+       <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe4uV1jF4Kr7AlkWCPZ92xH81QCunpC9uLTymxZ2jhMRvu1_w/formResponse">
+
                 <label for="subscribeMail">
                   Newsletter
                 </label>
-                <input type="email" placeholder="Enter Your email" id="subscribeMail"/>
+        <input name="entry.240500974" type="email" placeholder="Enter Your email" id="subscribeMail"/>
                 <button type="submit">
                   Subscribe
                 </button>

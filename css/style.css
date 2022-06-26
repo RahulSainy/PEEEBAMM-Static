@@ -443,6 +443,7 @@ a:focus {
 }
 
 .why_section {
+  margin-bottom:9rem;
   color: #f9fcfb;
   background: -webkit-gradient(linear, left top, right top, from(#1b3374), to(#8f4fe8));
   background: linear-gradient(to right, #1b3374, #8f4fe8);
@@ -782,3 +783,4 @@ margin: 1rem;
 }
 .servicesImg{
   height: 272px;}
+  

@@ -247,6 +247,11 @@ body {
 .job-style {
   display: none;
 }
+.job-logo{
+  
+  height: 3rem;
+
+}
 
 .job-style + label:before {
   content: "";
@@ -310,7 +315,8 @@ body {
 .job-card-title {
   font-weight: 600;
   margin-top: 16px;
-  font-size: 14px;
+  margin-left: 2rem;
+  font-size: 20px;
 }
 .job-card-subtitle {
   color: var(--subtitle-color);
