@@ -1,12 +1,12 @@
 
   /* .................................... */
+  @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   outline: none;
   box-sizing: border-box;
 }
-
 :root {
   --body-bg-color: #e5ecef;
   --theme-bg-color: #fafafb;
