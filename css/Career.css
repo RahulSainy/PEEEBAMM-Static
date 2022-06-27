@@ -281,7 +281,7 @@ body {
   padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 25px;
+  /* grid-column-gap: 25px; */
   grid-row-gap: 25px;
   -webkit-animation: slideY 0.6s both;
           animation: slideY 0.6s both;
@@ -303,6 +303,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.2s;
+  margin:2rem;
 }
 .job-card:hover {
   transform: scale(1.02);
@@ -317,6 +318,8 @@ body {
   margin-top: 16px;
   margin-left: 2rem;
   font-size: 20px;
+  /* added for index ........   */
+  text-align: center;
 }
 .job-card-subtitle {
   color: var(--subtitle-color);
@@ -673,6 +676,8 @@ body {
 @media screen and (max-width: 620px) {
   .job-cards {
     grid-template-columns: repeat(1, 1fr);
+ 
+
   }
 
   .header-menu a:not(:first-child) {

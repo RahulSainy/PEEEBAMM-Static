@@ -53,13 +53,11 @@ background: -webkit-linear-gradient(#3b3a92, #7d4bd5);
 
 /*header section*/
 .hero_area {
-  height: 94vh;
   background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376));
   background: linear-gradient(to right, #864ddf, #203376);
 }
 
 .hero_area::before {
-  content: "";
   position: absolute;
   width: 58%;
   height: 86%;
@@ -173,6 +171,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
+  margin-top: 2rem;
   color: #f9fcfb;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -748,7 +747,10 @@ a:focus {
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
 
-
+.collapse-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around}
 
 
 
@@ -762,7 +764,7 @@ a:focus {
   box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
   margin: 20px 5px;
   transition: 0.5s;
-  height: 380px;
+  height: auto;
   padding-bottom: 20px;
 }
 .industry-card-icon {
